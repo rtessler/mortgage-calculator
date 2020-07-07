@@ -1,0 +1,25 @@
+.result {
+  background: #6bba70; /* Old browsers */
+  background: -moz-linear-gradient(top,  #6bba70 0%, #22b529 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6bba70), color-stop(100%,#22b529)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #6bba70 0%,#22b529 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #6bba70 0%,#22b529 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #6bba70 0%,#22b529 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #6bba70 0%,#22b529 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#22b529',GradientType=0 ); /* IE6-9 */
+
+  border: 3px solid rgb(41,179,83);
+  color: #fff;
+  font-size: 12px;
+  padding: 0px 7px;
+
+  -webkit-border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  border-radius: 15px;
+  //width:85%;
+
+  .row { display: flex; justify-content: flex-start; margin: 5px 0px; }
+
+  .label { width: 250px; }
+  .value { min-width: 150px; }
+}

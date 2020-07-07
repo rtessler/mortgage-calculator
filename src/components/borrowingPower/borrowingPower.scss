@@ -1,0 +1,11 @@
+.borrowing-power {
+
+  display: flex;
+  flex-direction: column;
+  .currency, .units { display: inline-block; width: 10px; }
+
+  .calc-panel div { margin-bottom: 8px; }
+  .result table { width: 250px; }
+  /*.middle-div { padding: 15px; }*/
+  .readonly { background: #ddd; }
+}

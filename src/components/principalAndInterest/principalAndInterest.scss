@@ -1,0 +1,22 @@
+.principal-and-interest {
+
+  .result-panel { padding: 15px; }
+
+  .result-table {
+      width: 600px;
+      height: 300px;
+      position: relative;
+
+      .mj-grid .mj-grid-table {
+          font-size: 11px;
+      }
+  
+      .mj-grid .mj-grid-body > div:nth-child(even) {
+          background: #eee;
+      }
+  
+      .mj-grid .mj-grid-body > div:nth-child(odd) {
+          background: #fff;
+      }
+  }
+}
