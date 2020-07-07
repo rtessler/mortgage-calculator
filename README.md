@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+typescript and react
+
+## Mortgage Calculator
+
+![](screenshot.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
